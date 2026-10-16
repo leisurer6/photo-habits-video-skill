@@ -1,0 +1,4 @@
+interface:
+  display_name: "摄影习惯数据动画"
+  short_description: "扫描照片参数、审慎去重并制作摄影习惯数据可视化动画视频"
+  default_prompt: "使用 $photo-habits-video，先统计我的照片参数和重复项，再按确认的风格制作数据动画。"

@@ -1,0 +1,28 @@
+# Local runs can contain private paths, EXIF, and rendered personal videos.
+/runs/
+/runoutputs/
+/outputs/
+/work/
+/downloads/
+/private/
+/local-assets/
+
+# Python and tool state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Credentials and cloud sessions must never be distributed.
+.env
+.env.*
+!.env.example
+*cookies*.txt
+*cookies*.json
+*.pem
+*.key
